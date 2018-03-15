@@ -1,6 +1,6 @@
 const Eris = require("eris");
 var ID = "Channel iD";
-var dark = new Eris("NDAzNjY2ODEwMjc4NTEwNjAy.DYxvyA.aHpngWM5t45vXBCpLZ-skqcjyX8");
+var dark = new Eris("Mzk5NDU2MDY1NTAwMDg2Mjgw.DYxzKQ.ahOx3r9vxTRP5Zka16i9vJvlls0");
  
 dark.on("ready", ready => {
 setInterval(function(){
