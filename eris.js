@@ -32,4 +32,4 @@ dark.editChannel("404276657608851467", {name : "📅 Date " + "[" + day + "-" + 
  
 });
 
-dark.login(process.env.BOT_TOKEN);
+dark.connect("set_token")
