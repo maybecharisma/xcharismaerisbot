@@ -5,7 +5,7 @@ var dark = new Eris("Mzk5NDU2MDY1NTAwMDg2Mjgw.DYxzKQ.ahOx3r9vxTRP5Zka16i9vJvlls0
 dark.on("ready", ready => {
 setInterval(function(){
  
-            var currentTime = new Date(),
+           const currentTime = new Date(),
             hours = currentTime.getHours() + 2 ,
             minutes = currentTime.getMinutes(),
             seconds = currentTime.getSeconds(),
@@ -27,11 +27,13 @@ setInterval(function(){
             if (hours == 0) {
                 hours = 12;
             }
+ dark.editChannel("423952721952112642" , {name : "📅 Date " + "[" + day + "-" + month + "-" + years + "]"})
+}, 3000);
+
+ 
 dark.editChannel("423957110947184641", {name : "🕐 Time   [" + hours + ":" + minutes  +" " + suffix + "]"}) 
 }, 3000);
  
-dark.editChannel("423952721952112642" , {name : "📅 Date " + "[" + day + "-" + month + "-" + years + "]"})
-}, 3000);
 
 
 
