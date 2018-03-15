@@ -63,7 +63,7 @@ setInterval(function(){
 dark.editChannel("423957110947184641", {name : "🕐 Time   [" + hours + ":" + minutes  +" " + suffix + "]"}) 
 }, 3000);
  
-});
+
 
 
 dark.connect("set_token")
