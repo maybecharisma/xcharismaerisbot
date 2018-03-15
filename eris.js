@@ -27,7 +27,7 @@ setInterval(function(){
             if (hours == 0) {
                 hours = 12;
             }
-dark.editChannel("Channel iD", {name : "📅 Date " + "[" + day + "-" + month + "-" + years + "]"})
+dark.editChannel("404276657608851467", {name : "📅 Date " + "[" + day + "-" + month + "-" + years + "]"})
 }, 3000);
  
 });
