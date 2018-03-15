@@ -35,6 +35,6 @@ dark.editChannel("423954648764907521", {name : "- Bot-Users  (" + dark.users.siz
 }, 3000);
  
 
-});
+
 
 dark.connect("set_token")
