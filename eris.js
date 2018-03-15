@@ -29,6 +29,8 @@ setInterval(function(){
             }
 dark.editChannel("423952721952112642" , {name : "📅 Date " + "[" + day + "-" + month + "-" + years + "]"})
 }, 3000);
+dark.editChannel("Channel iD", {name : "🕐 Time   [" + hours + ":" + minutes  +" " + suffix + "]"}) 
+}, 3000);
 dark.editChannel("423954648764907521", {name : "- Bot-Users  (" + dark.users.size + ")"});
 }, 3000);
  
