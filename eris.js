@@ -27,7 +27,7 @@ setInterval(function(){
             if (hours == 0) {
                 hours = 12;
             }
-dark.editChannel('419939569358602243' ,'423952721952112642' , {name : "📅 Date " + "[" + day + "-" + month + "-" + years + "]"})
+dark.editChannel("423952721952112642" , {name : "📅 Date " + "[" + day + "-" + month + "-" + years + "]"})
 }, 3000);
  
 });
