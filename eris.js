@@ -1,6 +1,6 @@
 const Eris = require("eris");
 var ID = "Channel iD";
-var dark = new Eris("Set_token");
+var dark = new Eris("NDAzNjY2ODEwMjc4NTEwNjAy.DYxvyA.aHpngWM5t45vXBCpLZ-skqcjyX8");
  
 dark.on("ready", ready => {
 setInterval(function(){
@@ -32,4 +32,4 @@ dark.editChannel("Channel iD", {name : "📅 Date " + "[" + day + "-" + month + 
  
 });
 
-dark.connect("set_token")
+dark.login(process.env.BOT_TOKEN);
