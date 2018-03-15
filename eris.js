@@ -60,7 +60,8 @@ dark.editChannel("423957110947184641", {name : "🕐 Time   [" + hours + ":" + m
  dark.editChannel("423952721952112642" , {name : "📅 Date " + "[" + day + "-" + month + "-" + years + "]"})
 }, 3000);
 
- 
+ dark.editChannel(" CHANNEL ID ", {name : "- Users  (" + dark.users.size + ")"});
+}, 3000);
 
 
 
