@@ -32,7 +32,7 @@ dark.editChannel("423952721952112642" , {name : "📅 Date " + "[" + day + "-" +
 dark.editChannel("423954648764907521", {name : "- Users  (" + client.users.size + ")"});
 }, 3000);
  
-});
+
 
 
 dark.connect("set_token")
