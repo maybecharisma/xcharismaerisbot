@@ -63,7 +63,15 @@ dark.editChannel("423957110947184641", {name : "🕐 Time   [" + hours + ":" + m
  dark.editChannel(" CHANNEL ID ", {name : "- Users  (" + dark.users.size + ")"});
 }, 3000);
 
+dark.editChannel("423966110384128001", {name : "|=> W <=|"})
+dark.editChannel("423966110384128001", {name : "|=> We <=|"})
+dark.editChannel("423966110384128001", {name : "|=> Wel <=|"})
+dark.editChannel("423966110384128001", {name : "|=> Welc <=|"})
+dark.editChannel("423966110384128001", {name : "|=> Welco <=|"})
+dark.editChannel("423966110384128001", {name : "|=> Welcom <=|"})
+dark.editChannel("423966110384128001", {name : "|=> Welcome | <=|"})
 
+}, 3000);
 
 
 
